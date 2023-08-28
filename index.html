@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Arduino Components</title>
@@ -16,11 +17,11 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#home-section">Home</a></li>
                 <li><a href="components.html">Components</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Tutorials</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#tutorials-section">Tutorials</a></li>
+                <li><a href="#contact-section">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -35,26 +36,44 @@
     </section>
 
     <!-- components section -->
-    <section class="components">
-    <div style="border-style: solid; background-color: #00000080; text-align: center;" class="components-title">
+    <section class="components" id="components-section">
+    <div style="border-style: solid; background-color: rgb(7, 39, 82); text-align: center;" class="components-title">
       <h2>Components</h2>
     </div>
     <div class="components-container">
-      <div class="image">
+      <div class="container">
+        <div class="image">
           <img src="images/arduino.jpg" alt="" srcset="">
           <h2 align="center">Arduino Uno</h2>
+          <center><i style="color: rgb(0, 0, 0);font-size: 20px;" class="bi bi-chevron-down" id="openPopup1"></i></center>
+        </div>
+          <div class="content" id="content1">
+            <img src="/images/arduino.jpg" alt="" srcset="">
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque porro omnis alias non consequatur. Culpa officiis quod deserunt minus laudantium unde consequuntur id tenetur, iusto magnam cum, eum explicabo autem. Accusantium excepturi aliquam ratione, fugit sit et. Ex officia vitae exercitationem, ab corporis earum id cupiditate ducimus dicta quasi? Esse quidem expedita officiis architecto reiciendis minima amet incidunt deleniti quas delectus temporibus, consectetur voluptate aut. Suscipit repellendus voluptates sequi, ipsa vel voluptate reiciendis blanditiis fuga quidem praesentium, voluptatibus dolores reprehenderit doloribus optio officia, iste eaque corrupti. At illum quidem, neque adipisci ex nulla deserunt ipsa tempora qui voluptatum sunt laboriosam! lorem100</h4>
+                <center><i style="font-size: 30px;" class="bi bi-x" id="closePopup1"></i></center>
+              </div>
       </div>
-      <div class="image">
+      <div class="container">
+        <div class="image">
           <img src="images/arduino.jpg" alt="" srcset="">
           <h2 align="center">Arduino Uno</h2>
+          <center><i style="color: rgb(0, 0, 0);font-size: 20px;" class="bi bi-chevron-down" id="openPopup2"></i></center>
+        </div>
+        <div class="content" id="content1">
+          <img src="/images/arduino.jpg" alt="" srcset="">
+              <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque porro omnis alias non consequatur. Culpa officiis quod deserunt minus laudantium unde consequuntur id tenetur, iusto magnam cum, eum explicabo autem. Accusantium excepturi aliquam ratione, fugit sit et. Ex officia vitae exercitationem, ab corporis earum id cupiditate ducimus dicta quasi? Esse quidem expedita officiis architecto reiciendis minima amet incidunt deleniti quas delectus temporibus, consectetur voluptate aut. Suscipit repellendus voluptates sequi, ipsa vel voluptate reiciendis blanditiis fuga quidem praesentium, voluptatibus dolores reprehenderit doloribus optio officia, iste eaque corrupti. At illum quidem, neque adipisci ex nulla deserunt ipsa tempora qui voluptatum sunt laboriosam! lorem100</h4>
+              <center><i style="font-size: 30px;" class="bi bi-x" id="closePopup1"></i></center>
       </div>
-      <div class="image">
-          <img src="images/arduino.jpg" alt="" srcset="">
-          <h2 align="center">Arduino Uno</h2>
       </div>
-      <div class="image">
+      <div class="container">
           <img src="images/arduino.jpg" alt="" srcset="">
           <h2 align="center">Arduino Uno</h2>
+          <center><i style="color: rgb(0, 0, 0);font-size: 20px;" class="bi bi-chevron-down" id="openPopup3"></i></center>
+      </div>
+      <div class="container">
+          <img src="images/arduino.jpg" alt="" srcset="">
+          <h2 align="center">Arduino Uno</h2>
+          <center><i style="color: rgb(0, 0, 0);font-size: 20px;" class="bi bi-chevron-down" id="openPopup4"></i></center>
       </div>
   </div>
   <div class="view">
@@ -68,7 +87,7 @@
     <!-- footer section  -->
 
     <footer style="align-items: center;">
-      <div class="container">
+      <div class="footer-container">
         <div class="footer-content">
           <p>Munazza &#169; 2023</p>
         </div>
@@ -84,11 +103,12 @@
             <li><a href="#components-section">Components</a></li>
             <li><a href="#projects-section">Projects</a></li>
             <li><a href="#tutorials-section">Tutorials</a></li>
-            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </footer>
         
 </body> 
+<script src="script.js"></script>
 </html>
